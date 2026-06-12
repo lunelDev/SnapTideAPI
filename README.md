@@ -10,11 +10,9 @@
 - **Spring Boot 3.x**
 - **Spring Data JPA**
 - **Spring Web / REST**
-- **Spring Validation**
 - **Lombok**
-- **MySQL (또는 H2)**
-- **Swagger (Springdoc OpenAPI)**
-- **Maven / Gradle**
+- **MariaDB**
+- **Maven**
 
 ---
 
@@ -66,17 +64,7 @@ Photos (사진)
 
 ---
 
-## 📘 Swagger 사용법
-
-이 프로젝트는 [springdoc-openapi](https://springdoc.org/) 기반 Swagger UI를 제공합니다.
-
-### 실행 후 접속:
-
-```
-http://localhost:8080/swagger-ui/index.html
-```
-
-### 주요 경로 예시:
+## 📘 주요 API 엔드포인트
 
 * `POST /api/members` – 회원 등록
 * `GET /api/feeds` – 피드 목록 조회 (페이징 지원)
